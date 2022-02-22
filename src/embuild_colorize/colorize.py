@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 import argparse
 import os
-import re
-from contextlib import redirect_stderr
 
-VERSION = "0.1"
+VERSION = "0.1.0"
 
 class PrintColours:
     BLUE = '\033[94m'
@@ -52,7 +50,7 @@ def print_result(errors:list[str], warnings:list[str], errors_number:str, build_
     print("-" * 20)
 
 
-def cli():
+def cli(*args):
     parser = argparse.ArgumentParser(prog='Coloring', description='CLI for coloring emBuild output v' + VERSION)
     parser.add_argument('-c', '--command', type=str, help='emBuild command with arguments', required=True)
     parser.add_argument('-e', '--stderr', help='Parsing only stderr', required=False, default=True, action='store_false')
@@ -68,7 +66,7 @@ def cli():
     colorize_output(embuild_output)
 
 if __name__ == "__main__":
-    colorize()
+    cli()
 
 
 
