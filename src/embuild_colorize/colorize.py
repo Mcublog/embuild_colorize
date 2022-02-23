@@ -2,7 +2,7 @@
 import argparse
 import os
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 class PrintColours:
     BLUE = '\033[94m'
@@ -48,7 +48,6 @@ def print_result(errors:list[str], warnings:list[str], errors_number:str, build_
     else:
         print(f"{PrintColours.GREEN}Build: SUCCESS{PrintColours.RESET}")
     print("-" * 20)
-
 
 def cli(*args):
     parser = argparse.ArgumentParser(prog='Coloring', description='CLI for coloring emBuild output v' + VERSION)
