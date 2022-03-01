@@ -6,7 +6,7 @@
 
 * :art: Getting version from one file
 
-Full set of changes: [`0.1.1...5beab12`](https://github.com/Mcublog/embuild_colorize/compare/0.1.1...0.1.2)
+Full set of changes: [`0.1.1...0.1.2`](https://github.com/Mcublog/embuild_colorize/compare/0.1.1...0.1.2)
 
 ## 0.1.1 (2022-02-23)
 
