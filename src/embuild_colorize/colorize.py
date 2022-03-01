@@ -2,7 +2,8 @@
 import argparse
 import os
 
-VERSION = "0.1.1"
+from version import VERSION
+
 
 class PrintColours:
     BLUE = '\033[94m'
