@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.1.2 (2022-03-01)
+## 0.1.3 (2022-03-02)
+
+#### Fixes
+
+* :bug: fix link to changelog
+
+Full set of changes: [`0.1.2...0.1.3`](https://github.com/Mcublog/embuild_colorize/compare/0.1.2...0.1.3)
+
+## 0.1.2 (2022-03-02)
 
 #### Others
 
