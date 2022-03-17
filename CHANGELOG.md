@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4 (2022-03-17)
+
+#### New Features
+
+* :lipstick: Added entrypoint
+
+Full set of changes: [`0.1.3...0.1.4`](https://github.com/Mcublog/embuild_colorize/compare/0.1.3...0.1.4)
+
 ## 0.1.3 (2022-03-02)
 
 #### Fixes
